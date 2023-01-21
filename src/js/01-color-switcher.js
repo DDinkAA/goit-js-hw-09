@@ -15,14 +15,14 @@ function onStart() {
   timerId = setInterval(getBgColor, 1000);
   startBtn.toggleAttribute('disabled');
   stopBtn.removeAttribute('disabled');
-}
+};
 
 function onStop() {
   clearInterval(timerId);
-  startBtn.removeAttribute('disabled');
   stopBtn.toggleAttribute('disabled');
-}
+  startBtn.removeAttribute('disabled');
+};
 
 function getBgColor() {
   body.style.backgroundColor = getRandomHexColor();
-}
+};
