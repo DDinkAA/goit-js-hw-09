@@ -11,7 +11,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 };
 
-refs.startBtn.classList.add('timer-startbutton');
+refs.startBtn.classList.add('timer-startbutton', "disabled");
 
 const options = {
   enableTime: true,
@@ -28,6 +28,7 @@ const options = {
       return;
     }
     refs.startBtn.disabled = false;
+    refs.startBtn.classList.remove("disabled");
   },
 };
 
