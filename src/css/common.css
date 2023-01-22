@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* .timer {
+  margin-left: 300px;
+}
+
+#datetime-picker {
+  margin: 20px 20px 20px 300px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f4357;
+  border: 1px solid #747474;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.timer-startbutton {
+  background-color: #3f4357;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.disabled {
+  background-color: #747474;
+} */

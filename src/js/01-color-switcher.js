@@ -26,3 +26,4 @@ function onStop() {
 function getBgColor() {
   body.style.backgroundColor = getRandomHexColor();
 };
+
