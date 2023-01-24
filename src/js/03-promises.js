@@ -9,7 +9,7 @@ refs.form.addEventListener('submit', onFormSubmit);
 function onFormSubmit(e) {
   e.preventDefault();
 
-  console.log(e.currentTarget);
+  // console.log(e.currentTarget);
 
   let firstDelay = e.currentTarget.delay.valueAsNumber;
   const delayStep = e.currentTarget.step.valueAsNumber;
